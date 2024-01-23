@@ -15,7 +15,7 @@ def get_random_image_data():
     random_tag = random.choice(tags)
     random_page = random.randrange(1, 6)
     api_url=f"https://api.pexels.com/v1/search?query={random_tag}&per_page=30&orientation=square&page={random_page}"
-    api_key = "EyW7mCoREYBoymhZHqEupcVFooriGNaxlI1nE26GMI2Ho36URhtMm7mW"
+    api_key = "Replace with your API key"
     
     try:
         # Define headers with the API key
